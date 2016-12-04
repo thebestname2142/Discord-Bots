@@ -40,6 +40,9 @@ msg.channel.sendMessage("GET VACCED KID LMAO http://i.imgur.com/gwsMjKe.png")
 if(input.startsWith("what do i look like")){
 msg.channel.sendMessage("you look like this LMAO https://cdn.meme.am/cache/instances/folder559/500x/58105559.jpg")
 }
+if(input.startsWith("youtube")){
+msg.channel.sendMessage("https://www.youtube.com/channel/UCfDvD0oREg_OXsTIPNkVuJA")
+}
 if(input.startsWith("github")){
 msg.channel.sendMessage("this is the github repository https://github.com/thebestname21422/Discord-Bots")
 if(input.startsWith("spam")){
