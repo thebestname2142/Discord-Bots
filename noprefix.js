@@ -43,6 +43,9 @@ msg.channel.sendMessage("you look like this LMAO https://cdn.meme.am/cache/insta
 if(input.startsWith("youtube")){
 msg.channel.sendMessage("https://www.youtube.com/channel/UCfDvD0oREg_OXsTIPNkVuJA")
 }
+if(input.startsWith("help")){
+msg.channel.sendMessage("first I would like to say thank you for using thebestname21422s bot ok here are the commands ```  slave get me something to eat, are you my dad, am i dumb, chicken, can you not beat me with the wooden spoon, poop, do you like wafflez, trump, thebestname21422, how do you feel about need_2_speed, vac, what do i look like, youtub github```")
+}
 if(input.startsWith("github")){
 msg.channel.sendMessage("this is the github repository https://github.com/thebestname21422/Discord-Bots")
 if(input.startsWith("spam")){
