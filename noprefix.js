@@ -53,5 +53,6 @@ msg.channel.sendMessage("SPAM SPAMSPAM SPAMSPAM SPAMSPAM SPAMSPAM SPAMSPAM SPAMS
 }
 });
 bot.login(token);
-  console.log(`Logged in as ${bot.user.username} and ready in ${bot.guilds.size} servers`);
+bot.on('ready', () =>{
+  console.log(`Logged in as ${bot.user.username} and started up and ready to go in ${bot.guilds.size} server wowoho how exciting dont forget to do help in chat`);
 });
