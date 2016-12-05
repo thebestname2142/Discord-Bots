@@ -2,6 +2,7 @@ var discord = require("discord.js");
 var bot = new discord.Client();
 var token = "Your_Bot_Token_Here_Get_https://discordapp.com/developers/applications/me"
 var prefix = "!"
+ClientUser.setGame(daddy)
 bot.on("message", msg =>{
 var input = msg.content.toLowerCase();
 if(input.startsWith("slave get me something to eat")){
@@ -17,7 +18,7 @@ if(input.startsWith("chicken")){
 msg.channel.sendMessage("yummy https://cdn.discordapp.com/attachments/251785182686871552/254027069904781313/IMG_0649.JPG")
 }
 if(input.startsWith("can you not beat me with the wooden spoon")){
-msg.channel.sendMessage("NO YOU DESRVE IT YOU KNOW WHAT YOU DID YOU SON OF A")
+msg.channel.sendMessage("NO YOU DESRVE IT YOU KNOW WHAT YOU DID YOU SON OF A BITCH")
 }
 if(input.startsWith("poop")){
 msg.channel.sendMessage("yes, thats the suff that comes out of your ass")
