@@ -47,3 +47,4 @@ bot.login(Token);
 bot.on('ready', () =>{
   console.log(`Logged in as ${bot.user.username} and ready in ${bot.guilds.size} servers`);
 });
+edited get hacked m8
